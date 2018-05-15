@@ -1,11 +1,21 @@
-.timer{
+.container {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align:center;
 
-  font-family: 'Courier New', sans-serif;
-  width: 300px;
-  margin: 30px auto 0;
-  text-align: center;
-  font-weight: bold;
-  font-size: 40px;
+}
+
+#timer {
+    margin-bottom:  30px;
+    padding-right: 0;
+    font-size: 50px;
+    background-color: #000080;
+    color: #FFCCFF;
+    width: 400px;
+    height: 200px;
+    text-align:center;
+    line-height: 180px;
 }
 
 #start,#stop,#reset{

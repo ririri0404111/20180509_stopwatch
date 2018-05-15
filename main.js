@@ -3,9 +3,8 @@
   window.addEventListener('load',function(){
 
     var timer = document.getElementById('timer');
-    console.log('timer',timer);
-
-    document.getElementById('start');
+    var minute = document.getElementById('minute');
+    var second = document.getElementById('second');
     var start = document.getElementById('start');
     var stop = document.getElementById('stop');
     var reset = document.getElementById('reset');
@@ -13,12 +12,17 @@
     var progressTime;
 
 
+    minute.addEventListener('click',function(){
+      
+    })
+
 
     function update () {
       var elapsedTime;
       elapsedTime = (Date.now() - startTime) / 1000;
       timer.textContent = elapsedTime;
     }
+
 
     start.addEventListener('click',function(){
       startTime = Date.now();
