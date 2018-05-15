@@ -15,6 +15,8 @@
     width: 400px;
     height: 200px;
     text-align:center;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 180px;
 }
 
