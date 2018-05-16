@@ -3,8 +3,6 @@
   window.addEventListener('load',function(){
 
     var timer = document.getElementById('timer');
-    var minute = document.getElementById('minute');
-    var second = document.getElementById('second');
     var start = document.getElementById('start');
     var stop = document.getElementById('stop');
     var reset = document.getElementById('reset');
@@ -13,7 +11,7 @@
 
 
     minute.addEventListener('click',function(){
-      
+
     })
 
 
